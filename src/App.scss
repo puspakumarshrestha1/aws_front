@@ -1,0 +1,22 @@
+.homepage-card {
+  /* Card styles */
+  .card {
+    width: 16rem !important; /* Adjust the width according to your layout */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    height: 450px !important;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  /* Image within the card */
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Adjust how the image fits its container */
+  }
+}
+
+//header
+.btn:focus {
+  box-shadow: none;
+}
